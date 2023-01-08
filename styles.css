@@ -56,14 +56,14 @@ html {
   
   .tile-pink {
     background-color: #ec99e7;
-    box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #ec99e7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #ea87e3, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
   .tile-pink:hover,
   .tile-pink:focus {
     background-color: #ec99e7;
-    box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #ec99e7, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
+    box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #ea87e3, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
   }
   
   .tile-pink:active,
@@ -75,14 +75,14 @@ html {
   
   .tile-green {
     background-color: #afc77d;
-    box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #afc77d, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #aac472, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
   .tile-green:hover,
   .tile-green:focus {
     background-color: #afc77d;
-    box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #afc77d, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
+    box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #aac472, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
   }
   
   .tile-green:active,
@@ -94,14 +94,14 @@ html {
   
   .tile-blue {
     background-color: #87bdd6;
-    box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #87bdd6, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #7db8d3, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
   .tile-blue:hover,
   .tile-blue:focus {
     background-color: #87bdd6;
-    box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #87bdd6, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #7db8d3, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
   }
   
   .tile-blue:active,
@@ -112,14 +112,14 @@ html {
   }
   .tile-yellow {
     background-color: #e9debe;
-    box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #e9debe, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #eaddb7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
   .tile-yellow:hover,
   .tile-yellow:focus {
     background-color: #e9debe;
-    box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #e9debe, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #eaddb7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   }
   
   .tile-yellow:active,
