@@ -62,14 +62,14 @@ html {
   
   .tile-pink:hover,
   .tile-pink:focus {
-    background-color: #ec99e7;
-    box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #ea87e3, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
+    background-color: #cd61c6;
+    box-shadow: 0 0 0 1px #cd61c6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #ea87e3, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
   }
   
   .tile-pink:active,
   .tile-pink.activated {
-    box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #ec99e7;
+    box-shadow: 0 0 0 1px #d240c8 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+    background-color: #d240c8;
     transform: translateY(10px);
   }
   
@@ -100,14 +100,14 @@ html {
   
   .tile-blue:hover,
   .tile-blue:focus {
-    background-color: #87bdd6;
-    box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #7db8d3, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+    background-color: #2491c3;
+    box-shadow: 0 0 0 1px #2491c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #264a5b, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
   }
   
   .tile-blue:active,
   .tile-blue.activated {
-    box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #87bdd6;
+    box-shadow: 0 0 0 1px #31708e inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+    background-color: #31708e;
     transform: translateY(10px);
   }
   .tile-yellow {
