@@ -66,7 +66,12 @@ function handleClick(tile) {
     sound.play();
   
     const remainingTaps = sequence.length - humanSequence.length;
-  
+    //restore the game to orginal state if the user input and computer input do not match
+    if (humanSequence[index] !== sequence[index]) {
+        resetGame('Oops! Game over, you pressed the wrong tile');
+        return;
+      }
+      
     if (humanSequence.length === sequence.length) {
       humanSequence = [];
       info.textContent = 'Success! Keep going!';
