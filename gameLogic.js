@@ -60,6 +60,11 @@ function startGame() {
   nextRound();
 }
 startButton.addEventListener('click', startGame);
+//decide if the player should move to the next round or end the game.
+tileContainer.addEventListener ('click',event=> {
+    const { tile } = event.target.dataset;
+    if (tile)handleClick (tile);
+})
 // create a function to indicate the computer is done, and it's time for the human to replicate the sequence
 function humanTurn(level){
 //removing the unclickable class so that the buttons can't be pressed while the game hasn't started yet
