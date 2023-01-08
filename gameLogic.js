@@ -8,13 +8,17 @@ let level =0;
 const startButton = document.querySelector('.js-start');
 const info = document.querySelector('.js-info');
 function nextStep() {
-    const tiles=['pink','green','blue','yellow']
+    const tiles=['pink','green','blue','yellow'];
+    const random = tiles[Math.floor(Math.random()*tiles.length)];
+    
+    return random;
 }
 //create function to count rounds
 function nextRound(){
     level +=1;
    //copy all the elements to the next sequence so that it's just an extension vs. a new sequence each time
    const nextSequence=[...sequence];
+   nextSequence.push(nextstep());
 }
 function startGame() {
   startButton.classList.add('hidden');
