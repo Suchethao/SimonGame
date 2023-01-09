@@ -81,14 +81,14 @@ html {
   
   .tile-green:hover,
   .tile-green:focus {
-    background-color: #afc77d;
-    box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #aac472, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
+    background-color: #b9d57d;
+    box-shadow: 0 0 0 1px #b9d57d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #aac472, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
   }
   
   .tile-green:active,
   .tile-green.activated {
-    box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #afc77d;
+    box-shadow: 0 0 0 1px #9fcd3c inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+    background-color: #9fcd3c;
     transform: translateY(10px);
   }
   
@@ -118,14 +118,14 @@ html {
   
   .tile-yellow:hover,
   .tile-yellow:focus {
-    background-color: #e9debe;
-    box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #eaddb7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #e9d189;
+    box-shadow: 0 0 0 1px #e9d189 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #eaddb7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   }
   
   .tile-yellow:active,
   .tile-yellow.activated {
-    box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #e9debe;
+    box-shadow: 0 0 0 1px #e7c664 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+    background-color: #e7c664;
     transform: translateY(10px);
   }
   

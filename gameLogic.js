@@ -1,4 +1,4 @@
-//Game logic: the computer's array and human array should be compared and an equal value returned will allow th eplayer to progress onwards upto 20 rounds. If the value is inequal at any point, the game is reset. The levels should increase in difficulty, so an array element should be added to the computer's sequence in each level, upto a total of 20 array elements. These array elements carry a color/ sound value. When the game is ove r(either all 20 levels are complete OR the player entered an incorrect value), the game is brought back to it's original state, and can start again.
+//Game logic: the computer's array and human array should be compared and an equal value returned will allow th eplayer to progress onwards upto 10 rounds. If the value is inequal at any point, the game is reset. The levels should increase in difficulty, so an array element should be added to the computer's sequence in each level, upto a total of 10 array elements. These array elements carry a color/ sound value. When the game is ove r(either all 10 levels are complete OR the player entered an incorrect value), the game is brought back to it's original state, and can start again.
 //Create an empty array for the computer to pick the sequence, and another empty array for the user's input. The game play will compare both.
 let sequence=[];
 let humanSequence=[];
@@ -42,7 +42,7 @@ function nextRound(){
     //add the unclickable class and edit info and heading every time a new round starts
     tileContainer.classList.add('unclickable');
     infotextContent= 'Wait for the Computer';
-    heading.textContent = `Level ${level} of 20`;
+    heading.textContent = `Level ${level} of 10`;
    //copy all the elements to the next sequence so that it's just an extension vs. a new sequence each time
    const nextSequence=[...sequence];
    nextSequence.push(nextStep());
@@ -71,8 +71,13 @@ function handleClick(tile) {
         resetGame('Oops! Game over, you pressed the wrong tile');
         return;
       }
-      
+
     if (humanSequence.length === sequence.length) {
+// add end state
+    if (humanSequence.length===10){
+        resetGame ('Congrats!You completed all the levels');
+        return
+    }
       humanSequence = [];
       info.textContent = 'Success! Keep going!';
       setTimeout(() => {
