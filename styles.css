@@ -54,78 +54,78 @@ html {
     pointer-events: none;
   }
   
-  .tile-pink {
+  .tile-barney {
     background-color: #ec99e7;
     box-shadow: 0 0 0 1px #ec99e7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #ea87e3, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
-  .tile-pink:hover,
-  .tile-pink:focus {
+  .tile-barney:hover,
+  .tile-barney:focus {
     background-color: #cd61c6;
     box-shadow: 0 0 0 1px #cd61c6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #ea87e3, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
   }
   
-  .tile-pink:active,
-  .tile-pink.activated {
+  .tile-barney:active,
+  .tile-barney.activated {
     box-shadow: 0 0 0 1px #d240c8 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #d240c8;
+    background-image: url(/lib/barney.gif);
     transform: translateY(10px);
   }
   
-  .tile-green {
+  .tile-burns {
     background-color: #afc77d;
     box-shadow: 0 0 0 1px #afc77d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #aac472, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
-  .tile-green:hover,
-  .tile-green:focus {
+  .tile-burns:hover,
+  .tile-burns:focus {
     background-color: #b9d57d;
     box-shadow: 0 0 0 1px #b9d57d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #aac472, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
   }
   
-  .tile-green:active,
-  .tile-green.activated {
+  .tile-burns:active,
+  .tile-burns.activated {
     box-shadow: 0 0 0 1px #9fcd3c inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #9fcd3c;
+    background-image: url(/lib/mr-burns.gif);
     transform: translateY(10px);
   }
   
-  .tile-blue {
+  .tile-homer {
     background-color: #87bdd6;
     box-shadow: 0 0 0 1px #87bdd6 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #7db8d3, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
-  .tile-blue:hover,
-  .tile-blue:focus {
+  .tile-homer:hover,
+  .tile-homer:focus {
     background-color: #2491c3;
     box-shadow: 0 0 0 1px #2491c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #264a5b, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
   }
   
-  .tile-blue:active,
-  .tile-blue.activated {
+  .tile-homer:active,
+  .tile-homer.activated {
     box-shadow: 0 0 0 1px #31708e inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #31708e;
+    background-image: url(/lib/homer.gif);
     transform: translateY(10px);
   }
-  .tile-yellow {
+  .tile-bart {
     background-color: #e9debe;
     box-shadow: 0 0 0 1px #e9debe inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #eaddb7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     transition: 0.15s;
   }
   
-  .tile-yellow:hover,
-  .tile-yellow:focus {
+  .tile-bart:hover,
+  .tile-bart:focus {
     background-color: #e9d189;
     box-shadow: 0 0 0 1px #e9d189 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #eaddb7, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   }
   
-  .tile-yellow:active,
-  .tile-yellow.activated {
+  .tile-bart:active,
+  .tile-bart.activated {
     box-shadow: 0 0 0 1px #e7c664 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-    background-color: #e7c664;
+    background-image: url(lib/bart.gif)
     transform: translateY(10px);
   }
   

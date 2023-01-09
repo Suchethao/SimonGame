@@ -9,10 +9,12 @@ const startButton = document.querySelector('.js-start');
 const info = document.querySelector('.js-info');
 const heading = document.querySelector ('.js-heading');
 const tileContainer = document.querySelector ('.js-container');
+const loserSound = document.querySelector('loser');
+
 //play round by activating the tiles on the screen
-function activateTile(color){
-    const tile = document.querySelector(`[data-tile='${color}']`);
-    const sound = document.querySelector(`[data-sound='${color}']`);
+function activateTile(simpson){
+    const tile = document.querySelector(`[data-tile='${simpson}']`);
+    const sound = document.querySelector(`[data-sound='${simpson}']`);
 
     tile.classList.add('activated');
     sound.play();
@@ -23,15 +25,15 @@ function activateTile(color){
 }
 //create subsequent rounds 
 function playRound(nextSequence) {
-    nextSequence.forEach((color,index)=> {
+    nextSequence.forEach((simpson,index)=> {
         setTimeout(() =>{
-            activateTile(color);
+            activateTile(simpson);
             //create an artificial delay between the buttons going off
         }, (index+1)*600);
     });
 }
 function nextStep() {
-    const tiles=['pink','green','blue','yellow'];
+    const tiles=['barney','burns','homer','bart'];
     const random = tiles[Math.floor(Math.random()*tiles.length)];
     
     return random;
@@ -42,7 +44,7 @@ function nextRound(){
     //add the unclickable class and edit info and heading every time a new round starts
     tileContainer.classList.add('unclickable');
     infotextContent= 'Wait for the Computer';
-    heading.textContent = `Level ${level} of 10`;
+    heading.textContent = `Season ${level} of 10`;
    //copy all the elements to the next sequence so that it's just an extension vs. a new sequence each time
    const nextSequence=[...sequence];
    nextSequence.push(nextStep());
@@ -63,15 +65,13 @@ function startGame() {
 function handleClick(tile) {
     const index = humanSequence.push(tile) - 1;
     const sound = document.querySelector(`[data-sound='${tile}']`);
-    sound.play();
-    const loserSound = document.querySelector('loser')
-  
+    sound.play();  
     const remainingTaps = sequence.length - humanSequence.length;
     //restore the game to orginal state if the user input and computer input do not match
     if (humanSequence[index] !== sequence[index]) {
         resetGame('Oops! Game over, you pressed the wrong tile');
         sound.play(loserSound);
-        return;
+        return
       }
 
     if (humanSequence.length === sequence.length) {
