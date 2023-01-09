@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   </head>
 <body>
  <main class="game">
   <header>
-    <h1 class="heading js-heading">Simon Game</h1>
+    <h1 class="heading js-heading">Simon Says Simpsons</h1>
   </header>
 <!-- use hex colors; -->
 
@@ -29,20 +30,24 @@
 <!-- Add sound effects in here -->
 <div class="hidden">
     <audio
-      src="https://www.epidemicsound.com/track/iUNHNjFpZl/"
+      src="https://www.thesoundarchive.com/play-wav-files.asp?sound=simpsons/barney/belching.mp3"
       data-sound="pink"
     ></audio>
     <audio
-      src="https://www.epidemicsound.com/track/rTxmdBiAcC/"
+      src="https://www.thesoundarchive.com/play-wav-files.asp?sound=simpsons/burns/Mr-Burns-pish-posh.mp3"
       data-sound="green"
     ></audio>
     <audio
-      src="https://www.epidemicsound.com/track/v07FQLEcsS/"
+      src="https://www.thesoundarchive.com/play-wav-files.asp?sound=simpsons/homer/boring.mp3"
       data-sound="blue"
     ></audio>
     <audio
-      src="https://www.epidemicsound.com/track/jvPWJROqWZ/"
+      src="https://www.thesoundarchive.com/play-wav-files.asp?sound=simpsons/bart/bartlaf3.mp3"
       data-sound="yellow"
+    ></audio>
+    <audio
+    src="https://www.thesoundarchive.com/play-wav-files.asp?sound=simpsons/misc/haha.mp3"
+    data-sound="loser"
     ></audio>
   </div>
   <script src="gameLogic.js"></script>
